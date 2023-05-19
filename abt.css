@@ -7,12 +7,14 @@
 :root {
   --card-height: 65vh;
   --card-width: calc(var(--card-height) / 1.5);
+  --box1-height: 95vh;
+  --box1-width: calc(var(--box-height) / 1.5)
 }
 
 body {
   font-family: Arial, sans-serif;
   min-height: 100vh;
-  background: #212534;
+  background: url("542730.png");
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -83,6 +85,23 @@ body {
   animation: spin 2.5s linear infinite;
 }
 
+.box1 {
+    background: #191c29;
+  width: var(--box1-weigth);
+  height: var(--card-height);
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: rigth;
+  text-align: center;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 0%);
+  cursor: pointer;
+  font-family: cursive;
+}
+
 @keyframes spin {
   0% {
     --rotate: 0deg;
@@ -99,6 +118,7 @@ a {
   font-weight: bold;
   margin-top: 2rem;
 }
+
 header {
   background-color: #333;
   color: #fff;
@@ -110,8 +130,10 @@ header h1 {
   margin: 0;
 }
 
-header h2{
+header h2 {
+  margin: 0;
   color:#fff;
+  text-alingn: center;
 }
 
 nav ul {
@@ -141,5 +163,5 @@ footer {
   padding: 20px;
   text-align: center;
   margin-right: 150px;
-  margin-left: 100px;
+  margin-left: 150px;
 }
