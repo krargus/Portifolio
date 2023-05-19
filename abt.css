@@ -8,10 +8,9 @@
   --card-height: 65vh;
   --card-width: calc(var(--card-height) / 1.5);
 }
+
 body {
   font-family: Arial, sans-serif;
-} 
-body {
   min-height: 100vh;
   background: #212534;
   display: flex;
@@ -103,12 +102,16 @@ a {
 header {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
 
 header h1 {
   margin: 0;
+}
+
+header h2{
+  color:#fff;
 }
 
 nav ul {
@@ -119,6 +122,7 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 100px;
+  margin-left: 100px;
 }
 
 nav ul li a {
@@ -127,13 +131,15 @@ nav ul li a {
 }
 
 section {
-  backgroud:#483D8B;
+  
   padding: 20px;
 }
 
 footer {
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
+  margin-right: 150px;
+  margin-left: 100px;
 }
